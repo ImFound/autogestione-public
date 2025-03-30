@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8" />
+    <title>Accedi a Autogestione - ITES Caio Plinio Secondo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        /* Stili di base per garantire la compatibilità */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        img {
+            border: 0;
+            display: block;
+        }
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+<!-- Contenitore principale -->
+<table
+        width="100%"
+        height="100%"
+        bgcolor="#f3f4f6"
+        cellpadding="0"
+        cellspacing="0"
+        role="presentation"
+        style="min-height: 100vh; background-color: #f3f4f6;"
+>
+    <tr>
+        <td align="center" valign="top">
+            <!-- Wrapper del contenuto -->
+            <table
+                    width="600"
+                    cellpadding="0"
+                    cellspacing="0"
+                    role="presentation"
+                    style="width: 100%; max-width: 600px; background-color: #ffffff; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); overflow: hidden; margin: 40px 0;"
+            >
+                <!-- Header / Testata -->
+                <tr>
+                    <td
+                            bgcolor="#4F46E5"
+                            align="center"
+                            style="background-color: #4F46E5; padding: 20px;"
+                    >
+                        <h1
+                                style="
+                    margin: 0;
+                    color: #ffffff;
+                    font-size: 24px;
+                    font-family: Arial, sans-serif;
+                    font-weight: bold;
+                  "
+                        >
+                            Autogestione
+                        </h1>
+                    </td>
+                </tr>
+
+                <!-- Corpo del messaggio -->
+                <tr>
+                    <td style="padding: 30px; font-family: Arial, sans-serif; color: #374151;">
+                        <h2
+                                style="
+                    margin-top: 0;
+                    font-size: 20px;
+                    font-weight: bold;
+                    color: #1f2937;
+                  "
+                        >
+                            Ciao!
+                        </h2>
+                        <p style="margin: 16px 0; line-height: 1.5;">
+                            Abbiamo ricevuto la tua richiesta di accesso al portale <strong>Autogestione</strong>, l’iniziativa organizzata dai rappresentanti degli studenti dell’<strong>ITES Caio Plinio Secondo</strong>.
+                        </p>
+                        <p style="margin: 16px 0; line-height: 1.5;">
+                            Per prenotare e gestire le attività a cui vuoi partecipare, fai clic sul pulsante qui sotto:
+                        </p>
+                        <!-- Bottone con la variabile LOGIN_LINK -->
+                        <table
+                                width="100%"
+                                cellpadding="0"
+                                cellspacing="0"
+                                role="presentation"
+                                style="margin: 30px 0; text-align: center;"
+                        >
+                            <tr>
+                                <td align="center">
+                                    <a
+                                            href="{{LOGIN_LINK}}"
+                                            style="
+                          background-color: #4F46E5;
+                          color: #ffffff;
+                          padding: 12px 24px;
+                          border-radius: 6px;
+                          font-size: 16px;
+                          font-weight: bold;
+                          display: inline-block;
+                          font-family: Arial, sans-serif;
+                        "
+                                    >
+                                        Accedi al portale
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                        <p style="margin: 16px 0; font-size: 14px; color: #6b7280; text-align: center; line-height: 1.5;">
+                            Oppure copia e incolla questo link nel tuo browser:<br />
+                            <a
+                                    href="{{LOGIN_LINK}}"
+                                    style="color: #4F46E5; text-decoration: underline; word-break: break-all;"
+                            >
+                                {{LOGIN_LINK}}
+                            </a>
+                        </p>
+                    </td>
+                </tr>
+
+                <!-- Footer -->
+                <tr>
+                    <td
+                            bgcolor="#f9fafb"
+                            align="center"
+                            style="background-color: #f9fafb; padding: 20px; font-family: Arial, sans-serif;"
+                    >
+                        <p
+                                style="
+                    margin: 0;
+                    font-size: 12px;
+                    color: #9ca3af;
+                    line-height: 1.5;
+                  "
+                        >
+                            Ricevi questa email perché hai richiesto l'accesso al portale <strong>Autogestione</strong> dell’<strong>ITES Caio Plinio Secondo</strong>.<br />
+                            Se non sei stato tu a richiedere l’accesso, ignora questo messaggio.
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
+
